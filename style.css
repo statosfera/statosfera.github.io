@@ -1,0 +1,35 @@
+/* Resetowanie stylów dla całej strony */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 20;
+    padding: 20;
+}
+
+/* Ustawienie Open Sans jako domyślnej czcionki dla całej strony */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Dodatkowe style dla nagłówków */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Można dostosować według potrzeb */
+    color: #333; /* Kolor tekstu */
+    /* Dodatkowe style dla nagłówków, jeśli potrzebne */
+}
+
+/* Dodatkowe style dla paragrafów */
+p {
+    font-size: 16px; /* Rozmiar czcionki */
+    line-height: 1.5; /* Interlinia */
+    color: #555; /* Kolor tekstu */
+    /* Dodatkowe style dla paragrafów, jeśli potrzebne */
+}
+
+/* Dodatkowe style dla list */
+ul, ol {
+    /* Dodatkowe style dla list, jeśli potrzebne */
+}
+
+/* Dodatkowe style dla elementów listy */
+li {
+    /* Dodatkowe style dla elementów listy, jeśli potrzebne */
+}
