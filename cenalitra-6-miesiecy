@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titleCena paliwa w Polsce na tle ceny surowca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Cena paliwa w Polsce na tle ceny surowca</h1>
+  <p><a href="#">ostatnie 56 miesięcy</a> | <b>ostatnie 6 miesięcy</b></p>
+  <br>
+  <ul>
+    <h2>1. Kurs USD</h2>
+      <iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/a0214714-2c29-424b-80cf-f0c69229f7ed/page/q2UeD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">        </iframe>
+        <p><i>źródło: currency-converter.org.uk</i></p><br>
+  </ul>
+    <ul>
+    <h2>2. Kurs ropy BRENT w USD</h2>
+      <iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/ecd1df0f-8448-4cc9-bccd-80487d388b7d/page/q2UeD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        <p><i>źródło: agtransport.usda.gov</i></p><br>
+  </ul>
+    <ul>
+    <h2>3. Przeliczona cena litra ropy</h2>
+    <p>wg. wzoru: Kurs ropy BRENT/159 * kurs USD</p>
+      <iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/630fd043-ab2b-466d-bbb6-07bfe27ba936/page/q2UeD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        <br>
+  </ul>
+    <ul>
+    <h2>4. Dobowa cena hurtowa litra benzyny Pb95</h2>
+      <iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/e7e1b81d-94f3-4a8f-88e2-3333bd853312/page/q2UeD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        <p><i>źródło: lotos.pl</i></p><br>
+  </ul>
+    <ul>
+    <h2>5. Różnica pomiędzy wyliczoną ceną litra ropy, a ceną litra benzyny Pb95</h2>
+    <p>wg. wzoru: Wyliczona cena litra ropy - Dobowa cena hurtowa litra benzyny Pb95</p>
+      <iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/eec87d07-4c09-42f4-9d99-542678e072b7/page/q2UeD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+       <br>
+  </ul>
+    <ul>
+    <h2>6. Nałożone na siebie wyliczona cena litra ropy i cena hurtowa litra benzyny Pb95</h2>
+    <p>sdda</p>
+      <iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/4efb4b10-bfdb-4368-87b2-a5f7f68bf488/page/q2UeD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+<br>
+  </ul>
+    <ul>
+    <h2>7. Stałe składowe ceny paliwa (bez VAT)</h2>
+    <p>Stawka akcyzy i opłata paliwowa na 1 litr benzyny Pb95</p>
+      <iframe width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/1802b29b-3998-4a9e-8389-28ea8e05f592/page/q2UeD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        <p><i>źródło: lotos.pl</i></p><br>
+  </ul>
+</body>
+</html>
